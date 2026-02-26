@@ -1,0 +1,14 @@
+{
+  "name": "annaims-transform-confluence-page-html-to-pdf",
+  "version": "1.0.0",
+  "description": "Node server that accepts HTML (including pages with JavaScript) and returns the rendered PDF as base64 via Puppeteer",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "puppeteer": "^24.0.0"
+  }
+}
